@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagnes/STRAYKIKDSS.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#contenedor{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#contenedor h1{
+    margin: 20px;
+}
+#contenedor h2{
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.menu li{
+    padding: 20px 10px;
+
+}
+.menu li a{
+    text-decoration: none;
+    padding: 10px;
+    color:rgb(19, 0, 0);
+    font-weight: bold;
+}
+.menu li a:hover{
+    opacity: 0.5;
+}
+.redes{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.redes li a{
+    padding: 10px
+}
+.redes i{
+    font-size: 1.5sem;
+    color: rgb(19, 0, 0);
+}
+/*blog.html*/
+#principal{
+    width: 80%;
+    margin: auto;
+    height: 1400px;
+
+}
+#principal nav{
+    height: 150px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 80%;
+    background-color: rgb(136, 0, 0);
+
+
+}
+#principal h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+section{
+    border: 1px solid rgb(136, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+#logo{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+#autor{
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+#yo{
+    width: 50px;
+    border-radius: 50%;
+
+}
+#luz{
+    width: 100px;
+    float: left;
+    padding: 10px;
+}
+section h2{ 
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+ }
+section p{ 
+    padding: 5px;
+ }   
+/*GALERIA*/
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }     
+ .galeria{ 
+    display: grid;
+    grid-template-columns: repeat(auto);
+    gap: 15px;
+    max-width: 1200px;
+    margin: auto;
+    transition: transform 0.3s;
+ }  
+ .caja img{ 
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    background-color: rgb(58, 51, 51);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px black;
+    
+  }  
+.caja img:hover{
+    transform: scale(1.03);
+}
+
+/*contactos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.superior{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+padding: 10px;
+}
+.info{
+    width: 48%;
+    text-align: center;
+}
+.tablac{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid#770000;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 17px;
+}
+.tablac th {
+    
+    background-color: #770000;
+    color: whitesmoke;
+    padding: 10px;
+    font-weight: normal;
+}
+.tablac tr:ultimo-hijo{
+    padding: 12px;
+}
+.imagenot8{
+    width: 350px;
+    height: 300px;
+    object-fit: contain;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+.formulario{
+    width: 48%;
+}
+.formulario h2{
+    color: rgb(114, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+}
+.formulario label{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.formulario input{
+    width: 100%;
+    height: 27px;
+    margin-bottom: 8px;
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(243, 243, 243);
+    padding: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.formulario textarea{
+    width: 100%;
+    height: 115px;
+    resize: vertical;
+    border: 2px solid rgb(119, 119, 119);
+    background-color: rgb(243, 243, 243);
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.formulario button{
+     width: 100%;
+    height: 36px;
+    background-color:rgb(119, 119, 119);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.mapa{
+    width: 100%;
+    margin-top: 20px;
+}
+.mapa h2{
+    background-color:rgb(114, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.mapa iframe{
+    width: 100%;
+    height: 420px;
+    border: none;
+    display: block;
+}
+
+/*nosotros*/
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.somos{
+    width: 82%;
+    border: 2px solid grey;
+    padding: 20px;
+}
+.somos h2{
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+    color: #770000;
+}
+.columnas{
+    display: flex;
+    border-top: 2px solid rgb(107, 0, 0);
+    padding-top: 12 px;
+}
+.columna{
+    width: 50%;
+    padding: 15px 20px;
+    text-align: justify;
+}
+.columna primer-hijo{
+    border-right: 2px dotted rgb(0, 0, 0);
+
+}
+.columna h3{
+    color: #770000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.columna p{
+    font-size: 16px;
+    line-height: 1.55;
+    margin-bottom: 25px;
+
+}
+.columna img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
